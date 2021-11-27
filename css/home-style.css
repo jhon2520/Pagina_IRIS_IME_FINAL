@@ -76,6 +76,7 @@ hr{
         .main-header .logo-section h1{
             color: var(--font-color);
             font-weight: 400;
+            
         }
 
         .main-header .nav-section .nav-bar .nav-list{
@@ -150,6 +151,8 @@ hr{
                 font-weight: 600;
                 font-size: 50px;
                 line-height: 90%;
+                color: var(--font-color);
+                text-shadow: 0 0 0px #ffcad9;
             }
             .main-container .main-section .main-inf hgroup h3{
                 font-size: 15px;
@@ -182,11 +185,14 @@ hr{
                 align-items: center;
                 /* background: rebeccapurple; */
                 height: 100%;
-                width: 80%;
-                max-width: 60%;
-                background-image: url(../resources/img/blusas.jpg);
+                width: 70%;
+                max-width: 70%;
+                background-image: url(../resources/img/home-img.PNG);
                 background-attachment: fixed;
-                clip-path: circle(30% at 50% 50%);
+                background-repeat:no-repeat;
+                background-position:  1100px 5px;
+                background-size: contain;
+                clip-path: circle(36% at 50% 50%);
 
 
             }
@@ -366,7 +372,7 @@ hr{
     }
 
     .main-container .productos-page .container-prod .card .content h3{
-        color: var(--font-color);
+        color: #fff;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: 500;
@@ -585,7 +591,7 @@ footer{
             height: 70%;
             width: 100%;
             max-width: 80%;
-            background-image: url(../resources/img/blusas.jpg);
+        
             background-attachment: local;
             background-repeat: no-repeat;
             background-position: center;
@@ -770,7 +776,7 @@ footer{
         }
 
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         } 
 
         .main-container .nosotros-page .nosotros-container .circulo.img-1{
@@ -809,7 +815,7 @@ footer{
         }
 
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
-            font-size: 0.7rem;
+            font-size: 0.6rem;
         } 
         .main-container .nosotros-page .nosotros-container .nosotros-texto h2{
             font-size: 1.7rem;

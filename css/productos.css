@@ -25,6 +25,13 @@ hr{
     border: none;
 }
 
+.small-container .row .col-4 img{
+    background: red;
+    height: 60%;
+    width: 80%;
+    border-radius: 15px;
+}
+
 .main-container{
     background: #fff;
     margin: 0 5vw;
