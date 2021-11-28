@@ -977,6 +977,10 @@ footer{
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 3.2vw;
         }
+        .main-container .nosotros-page .nosotros-container .nosotros-texto p:last-child{
+            display: none;
+        }
+
 
         .main-container .main-section .main-inf .main-btn{
             background: var(--header-bg-color);
@@ -1048,8 +1052,11 @@ footer{
         }
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 3.4vw;
-        
         }
+        .main-container .nosotros-page .nosotros-container .nosotros-texto p:last-child{
+            display: none;
+        }
+
 
         .main-container .main-section .main-inf .main-btn{
             margin-top: 15px;
