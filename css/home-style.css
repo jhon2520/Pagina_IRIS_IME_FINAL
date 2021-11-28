@@ -132,6 +132,8 @@ hr{
             justify-content: center;
             align-items: center;
             height: 92%;
+            justify-content: center;
+
 
         }
             .main-container .main-section .main-inf{
@@ -149,15 +151,16 @@ hr{
             }
             .main-container .main-section .main-inf hgroup h2{
                 font-weight: 600;
-                font-size: 50px;
+                font-size: 5.2vw;
                 line-height: 90%;
                 color: var(--font-color);
                 text-shadow: 0 0 0px #ffcad9;
             }
             .main-container .main-section .main-inf hgroup h3{
-                font-size: 15px;
+                font-size: 1.3vw;
                 font-weight: 300;
                 margin-top: 5%;
+                text-align: justify;
 
             }
             .btn{
@@ -237,12 +240,12 @@ hr{
         text-align: justify;
         color: var(--font-color);
         font-weight: 600;
-        font-size: 55px;
+        font-size: 3.5vw;
     }
     .main-container .nosotros-page .nosotros-container  .nosotros-texto p{
         text-align: justify;
         color: var(--font-color);
-        font-size: 15px;
+        font-size: 1.4vw;
         font-weight: 300;
     }
     .main-container .nosotros-page .nosotros-container  .nosotros-texto p:last-child{
@@ -275,12 +278,12 @@ hr{
         width: 80%;
     }
     .main-container .productos-page .enunciado-productos h3:nth-child(1){
-        font-size: 1.8rem;
+        font-size: 3.9vw;
         text-align: center;
         font-weight: 600;
     }
     .main-container .productos-page .enunciado-productos h3:nth-child(2){
-        font-size: 1.1rem;
+        font-size: 2.2vw;
         font-weight: 300;
         text-align: center;
     }
@@ -309,7 +312,7 @@ hr{
     }
 
     .main-container .contacto-page h2{
-        font-size: 1.5rem;
+        font-size: 4.5vw;
         color: rgb(139, 139, 139);
         font-weight: 200;
         margin-bottom: 10px;
@@ -671,11 +674,13 @@ footer{
             align-items: center;
 
         }
+        .main-container .main-section .main-inf hgroup h2{
+            font-size: 6.2vw;
+        }
 
         .main-container .main-section .main-inf hgroup h3{
-            font-size: 15px;
-            font-weight: 300;
-            margin-top: 5%;
+            font-size: 2.2vw;
+            margin-top: 3%;
 
         }
 
@@ -846,7 +851,7 @@ footer{
 
     }
 
-    @media (max-width:590px){
+    @media (max-width:600px){
         .productos-page .container-prod{
             display: grid;
             grid-template-columns: repeat(auto-fill,1000px);
@@ -857,6 +862,16 @@ footer{
 
 
         }
+        .main-container .main-section .main-inf hgroup h2{
+            font-size: 6.2vw;
+        }
+
+        .main-container .main-section .main-inf hgroup h3{
+            font-size: 2.5vw;
+            margin-top: 2%;
+
+        }
+
 
         .productos-page .container-prod .enunciado-productos{
             /* background-color: rebeccapurple; */
@@ -928,14 +943,29 @@ footer{
         .main-header .logo-section a img{
             width: 350%;
         }
+        .main-container .main-section .main-inf hgroup h2{
+            font-size: 6.8vw;
+        }
+
+        .main-container .main-section .main-inf hgroup h3{
+            font-size: 3.2vw;
+            margin-top: 2%;
+
+        }
+        .main-container .home-page .main-img{
+            width: 80%;
+            height: 60%;
+        }
+
 
         .main-container .nosotros-page .nosotros-container .circulo.img-1{
-            width: 65%;
-            height: 45%;
+            width: 40%;
+            height: 20%;
             float: left;
             border-radius: 50%;
             shape-outside: circle();
         }
+
 
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 0.8rem;
@@ -969,6 +999,27 @@ footer{
     }
     @media(max-width:350px){
 
+        .main-container .home-page .main-img{
+            /* background: red; */
+            width: 80%;
+            height: 30%;
+            border-radius: 50%;
+            margin-top: 15%;
+        }
+        .main-container .main-section .main-inf hgroup h2{
+            font-size: 10.5vw;
+            margin-top: 8%;
+            margin-bottom: 5%;
+        }
+        
+        .main-container .main-section .main-inf hgroup h3{
+            
+            font-size: 4.5vw;
+            margin-top: 3%;
+
+        }
+
+
         .main-container .nosotros-page .nosotros-container .circulo.img-1{
             width: 50%;
             height: 180px;
@@ -976,6 +1027,8 @@ footer{
             border-radius: 50%;
             shape-outside: circle();
         }
+
+
 
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 0.7rem;
