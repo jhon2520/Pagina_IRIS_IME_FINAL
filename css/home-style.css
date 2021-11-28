@@ -183,7 +183,6 @@ hr{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                /* background: rebeccapurple; */
                 height: 100%;
                 width: 70%;
                 max-width: 70%;
@@ -191,8 +190,8 @@ hr{
                 background-attachment: fixed;
                 background-repeat:no-repeat;
                 background-position:  1100px 5px;
-                background-size: contain;
-                clip-path: circle(36% at 50% 50%);
+                background-size: auto;
+                clip-path: circle(33% at 50% 50%);
 
 
             }
@@ -226,8 +225,8 @@ hr{
         object-fit: cover;
     }
     .main-container .nosotros-page .nosotros-container .circulo.img-1{
-        width: 600px;
-        height: 600px;
+        width: 45%;
+        height: 45%;
         float: left;
         border-radius: 50%;
         shape-outside: circle();
@@ -272,16 +271,18 @@ hr{
     }
 
     .main-container .productos-page .enunciado-productos{
-        /* background: green; */
         color: var(--font-color);
+        width: 80%;
     }
     .main-container .productos-page .enunciado-productos h3:nth-child(1){
-        font-size: 22px;
+        font-size: 1.8rem;
+        text-align: center;
         font-weight: 600;
     }
     .main-container .productos-page .enunciado-productos h3:nth-child(2){
-        font-size: 12px;
+        font-size: 1.1rem;
         font-weight: 300;
+        text-align: center;
     }
     .main-container .contacto-page{
         height: 100vh;
@@ -315,21 +316,22 @@ hr{
     }
 
     .main-container .productos-page .container-prod{
-        position: relative;
         display: flex;
+        position: relative;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         height: 100%;
         background: var(--main-bg-gradient);
 
+
     }
 
     .main-container .productos-page .container-prod .card{
         position: relative;
-        width: 250px;
-        height: 400px;
-        margin: 20px;
+        width: 25%;
+        height: 60%;
+        margin: 2%;
         overflow: hidden;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         border-radius: 15px;
@@ -402,7 +404,6 @@ footer{
     padding: 0 5vw;
 }
     footer .columna-1{
-        /* background: red; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -512,7 +513,6 @@ footer{
         justify-content: center;
         align-items: center;
         max-width: 10px 0;
-        /* background: red; */
         list-style: none;
         margin-top: 30px;
         margin-left: 40%;
@@ -531,6 +531,86 @@ footer{
 
 
     /* Media Query */
+    @media (max-width:1700px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  930px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
+    @media (max-width:1600px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  830px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
+    @media (max-width:1500px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  730px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
+    @media (max-width:1400px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  730px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
+    @media (max-width:1300px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  630px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
+    @media (max-width:1200px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  530px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
+    @media (max-width:1100px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  430px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
+    @media (max-width:1000px){
+
+        .main-container .main-section .main-img{
+
+            background-position:  330px 5px;
+            clip-path: circle(30% at 50% 50%);
+
+        }    
+
+    }
 
     @media (max-width:800px){
 
@@ -558,7 +638,6 @@ footer{
             color: #fff;
         }
         .main-header{
-            /* background: red; */
             margin-right: 0;
             width: 100%;
         }
@@ -580,25 +659,38 @@ footer{
             flex-direction: column-reverse;
             justify-content: start;
             align-items: center;
-            /* background: red; */
             height: 100vh;
+
+        }
+        .main-container .main-section .main-inf{
+
+            max-width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .main-container .main-section .main-inf hgroup h3{
+            font-size: 15px;
+            font-weight: 300;
+            margin-top: 5%;
 
         }
 
 
         .main-container .main-section .main-img{
 
-            height: 70%;
+            height: 80%;
             width: 100%;
             max-width: 80%;
-        
             background-attachment: local;
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
-            clip-path: circle(30% at 50% 50%);
+            clip-path: circle(36% at 50% 50%);
             z-index: 1;
-            /* background: red; */
 
 
         }
@@ -627,12 +719,20 @@ footer{
 
         }
         .main-container .productos-page .container-prod .card{
-            height: 290px;
+            position: relative;
+            width: 40%;
+            height: 40%;
+            margin: 2px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
 
-        }
-        .productos-page .container-prod .card .imgBx{
-            height: 10px;
-        }
 
         .nosotros-container{
             /* background: purple; */
@@ -641,28 +741,42 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 15px 0;
+            padding: 5px 0;
         }
         .main-container .nosotros-page .nosotros-container .circulo img{
             width: 100%;
+            height: 100%;
+
 
         }
         .main-container .nosotros-page .nosotros-container .circulo.img-1{
-            width: 400px;
-            height: 400px;
-            border-radius: 80%;
+            width: 40%;
+            height: 40%;
+            border-radius: 50%;
             shape-outside: circle();
         }
         .main-container .nosotros-page .nosotros-container .nosotros-texto{
-            height: 50%;
+            height: 80%;
         }
         .main-container .nosotros-page .nosotros-container .nosotros-texto h2{
             color: #7a7a7a;
             text-align: center;
+            font-size: 45px;
+            margin-bottom: 0px;
         }
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
-            padding: 0 30px;
+            padding: 0 10px;
             text-align: justify;
+            font-size: 1rem;
+        }
+        .main-container .nosotros-page .nosotros-container .nosotros-btn{
+            color: #fff;
+            background: var(--header-bg-color);
+            margin-top: 20px;
+            border-radius: 20px;
+            font-weight: 300;
+            transition: 0.5s;
+            padding: 5px;
         }
 
 
@@ -737,6 +851,7 @@ footer{
             display: grid;
             grid-template-columns: repeat(auto-fill,1000px);
             justify-content: center;
+            background-size: auto;
             gap: 5px;
             background: var(--main-bg-gradient);
 
@@ -750,16 +865,19 @@ footer{
             width: 100%;
 
         }
-        .main-container .productos-page .container-prod .card{
-            height: 280px;
-            width: 100px;
-
-        }
         .main-header .logo-section a img{
             width: 250%;
         }
     
-
+        .main-container .nosotros-page .nosotros-container .circulo.img-1{
+            width: 40%;
+            height: 30%;
+            border-radius: 50%;
+            shape-outside: circle();
+        }
+        .main-container .nosotros-page .nosotros-container .nosotros-texto{
+            height: 50%;
+        }
         .nosotros-container{
             /* background: purple; */
             height: 100vh;
@@ -767,24 +885,21 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 15px 0;
+            padding: 8px 0;
         }
 
         .main-container .nosotros-page .nosotros-container .circulo img{
             width: 100%;
 
         }
+        .main-container .nosotros-page .nosotros-container  .nosotros-texto h2{
+            font-size: 35px;
+        }
 
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 0.8rem;
         } 
 
-        .main-container .nosotros-page .nosotros-container .circulo.img-1{
-            width: 250px;
-            height: 250px;
-            border-radius: 80%;
-            shape-outside: circle();
-        }
         .footer{
             /* background: pink; */
             display: flex;
@@ -814,11 +929,19 @@ footer{
             width: 350%;
         }
 
+        .main-container .nosotros-page .nosotros-container .circulo.img-1{
+            width: 65%;
+            height: 45%;
+            float: left;
+            border-radius: 50%;
+            shape-outside: circle();
+        }
+
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
-            font-size: 0.6rem;
+            font-size: 0.8rem;
         } 
         .main-container .nosotros-page .nosotros-container .nosotros-texto h2{
-            font-size: 1.7rem;
+            font-size: 1.9rem;
         }
         .main-container .main-section .main-inf .main-btn{
             background: var(--header-bg-color);
@@ -826,6 +949,40 @@ footer{
             border-radius: 20px;
             font-weight: 300;
             margin-top: 20px;
+            font-size: 0.8rem;
+        }
+        .main-container .productos-page .container-prod .card{
+            position: relative;
+            width: 70%;
+            height: 22%;
+            margin: 2px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+        }
+
+    }
+    @media(max-width:350px){
+
+        .main-container .nosotros-page .nosotros-container .circulo.img-1{
+            width: 50%;
+            height: 180px;
+            float: left;
+            border-radius: 50%;
+            shape-outside: circle();
+        }
+
+        .main-container .nosotros-page .nosotros-container .nosotros-texto p{
+            font-size: 0.7rem;
+        } 
+
+        .main-container .main-section .main-inf .main-btn{
+            margin-top: 15px;
             font-size: 0.8rem;
         }
     }

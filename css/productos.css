@@ -26,7 +26,7 @@ hr{
 }
 
 .small-container .row .col-4 img{
-    background: red;
+
     height: 60%;
     width: 80%;
     border-radius: 15px;
@@ -71,10 +71,7 @@ hr{
             color: var(--font-color);
             font-weight: 400;
         }
-        /* .main-container .home-page .main-header .nav-section .nav-bar{
-            background: red; 
-        } 
-        */
+
         .main-container .home-page .main-header .nav-section .nav-bar .nav-list{
             display: flex;
             justify-content: center;
@@ -134,7 +131,6 @@ hr{
     }
         .main-container .main-section .main-inf{
 
-            /* background: red; */
             max-width: 50%;
             display: flex;
             flex-direction: column;
@@ -187,7 +183,6 @@ hr{
             background-image: url(../resources/img/blusas.jpg);
             background-attachment: fixed;
             clip-path: circle(40% at 50% 50%);
-            /* background: red; */
 
 
         }
@@ -374,7 +369,6 @@ footer{
     color: #fff;
 }
     footer .columna-1{
-        /* background: red; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
