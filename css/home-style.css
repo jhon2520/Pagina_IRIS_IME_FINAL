@@ -255,7 +255,7 @@ hr{
         color: #fff;
         background: var(--header-bg-color);
         margin-top: 20px;
-        margin-left: 6%;
+        margin-left: 1%;
         border-radius: 20px;
         font-weight: 300;
         transition: 0.5s;
@@ -915,9 +915,7 @@ footer{
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 2.9vw;
         }
-        .main-container .nosotros-page .nosotros-container .nosotros-texto p:last-child{
-            display: none;
-        }
+
 
         .footer{
             /* background: pink; */
@@ -976,9 +974,6 @@ footer{
         }
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 3.2vw;
-        }
-        .main-container .nosotros-page .nosotros-container .nosotros-texto p:last-child{
-            display: none;
         }
 
 
@@ -1052,9 +1047,6 @@ footer{
         }
         .main-container .nosotros-page .nosotros-container .nosotros-texto p{
             font-size: 3.4vw;
-        }
-        .main-container .nosotros-page .nosotros-container .nosotros-texto p:last-child{
-            display: none;
         }
 
 
